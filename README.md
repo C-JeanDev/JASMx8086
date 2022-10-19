@@ -1,6 +1,6 @@
 # PY_ASM version 0.0.1
-
-Functions Implemented:
+Interpreter for ASM done in python just for fun
+# Functions Implemented:
     MOV,
     INC,
     DEC,
@@ -17,12 +17,12 @@ Functions Implemented:
       JL/JNGE	        Jump Less or Jump Not Greater/Equal
       JLE/JNG	        Jump Less/Equal or Jump Not Greater
 
-Next Update 0.0.1:
+# Next Update 0.0.1:
     More Conditional Jump:
-      JNLE,
-      JGE,
-      JLE,
-      JNG     
+        JNLE,
+        JGE,
+        JLE,
+        JNG     
     String {db,dw}
     Exceptions
 
