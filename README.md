@@ -1,4 +1,4 @@
-# PY_ASM version 0.0.1
+# PY_ASM version 0.0.2
 Interpreter for ASM done in python just for fun
 # Functions Implemented:
     MOV,
@@ -38,21 +38,18 @@ Write some py_asm Code in the main.pyasm file
 mov al,4
 mov bl,4
 
-je al,bl
-cmp fine
+cmp al,bl
+je fine
 
 mov dh,9
 
 fine:
     mov dl,1
 ```
-# Next Update 0.0.2:
-Available soon on [pip](https://pip.pypa.io/en/stable/)
-    
+# Next Update 0.0.3:
+Available soon on [pip](https://pip.pypa.io/en/stable/)  
     More Conditional Jump:
         JNLE,
-        JGE,
-        JLE,
         JNG,     
     String {db,dw}
     Exceptions
