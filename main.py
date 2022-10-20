@@ -5,7 +5,7 @@ FILENAME = 'main.jasm'
 
 def main() -> None:
     a = Asm(FILENAME)
-    a.register()
+    a.registers()
 
 
 if __name__ == "__main__":
