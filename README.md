@@ -17,7 +17,7 @@ Interpreter for ASM done in python just for fun
       JL/JNGE	        Jump Less or Jump Not Greater/Equal
       JLE/JNG	        Jump Less/Equal or Jump Not Greater
 
-# Next Update 0.0.1:
+# Next Update 0.0.2:
     More Conditional Jump:
         JNLE,
         JGE,
