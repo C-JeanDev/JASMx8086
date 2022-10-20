@@ -17,14 +17,46 @@ Interpreter for ASM done in python just for fun
       JL/JNGE	        Jump Less or Jump Not Greater/Equal
       JLE/JNG	        Jump Less/Equal or Jump Not Greater
 
+# Get Started
+  How to Start
+```python   
+    from Class.Asm import Asm
+
+    FILENAME = 'main.pyasm' # <- filename here
+
+
+    def main() -> None:
+        a = Asm(FILENAME)
+        a.registers() # <- Print of Registers here
+
+    if __name__ == "__main__":
+        main()
+``` 
+Write some py_asm Code in the main.pyasm file
+
+```assembly
+mov al,4
+mov bl,4
+
+je al,bl
+cmp fine
+
+mov dh,9
+
+fine:
+    mov dl,1
+```
 # Next Update 0.0.2:
+Available soon on [pip](https://pip.pypa.io/en/stable/)
+    
     More Conditional Jump:
         JNLE,
         JGE,
         JLE,
-        JNG     
+        JNG,     
     String {db,dw}
     Exceptions
+    
 
   
   
