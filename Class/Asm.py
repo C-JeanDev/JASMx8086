@@ -9,5 +9,5 @@ class Asm:
         lex = Lexer(file)
 
     @classmethod
-    def register(cls):
+    def registers(cls):
         print(SUB_REGISTER)
