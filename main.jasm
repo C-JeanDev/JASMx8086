@@ -1,8 +1,0 @@
-mov al,0
-mov dh,0
-sec:
-    jz al  
-    cmp fine
-mov ch,99
-fine:
-    mov dl,100
