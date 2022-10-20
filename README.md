@@ -48,14 +48,14 @@ fine:
 ```
 # Next Update 0.0.3:
 Available soon on [pip](https://pip.pypa.io/en/stable/)  
-    More Conditional Jump:
+
+```
+   More Conditional Jump:
         JNLE,
         JNG,     
     String {db,dw}
     Exceptions
-    
-
-  
+```
   
   
   
