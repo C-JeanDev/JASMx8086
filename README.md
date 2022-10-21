@@ -53,7 +53,7 @@ Available soon on [pip](https://pip.pypa.io/en/stable/)
    More Conditional Jump:
         JNLE,
         JNG,     
-    String {db,dw}
+    String {db,dw,dd,dq,dt}
     Exceptions
 ```
   
