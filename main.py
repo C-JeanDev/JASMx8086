@@ -1,6 +1,6 @@
 from Class.Asm import Asm
 
-FILENAME = 'main.pyasm'
+FILENAME = 'main.jasm'
 
 
 def main() -> None:
