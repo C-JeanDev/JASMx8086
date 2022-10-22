@@ -1,5 +1,23 @@
-# PY_ASM version 0.0.2
-Interpreter for ASM done in python just for fun
+# PY_ASM version 0.1.2
+
+JASMx8086 Documentation Language
+
+# JASMx8086 Registers:
+
+    +-----------+-------+
+    | Registers | Value |
+    +-----------+-------+
+    |    jxa    |   0   |
+    |    jxb    |   0   |
+    |    jxc    |   0   |
+    |    jxd    |   0   |
+    |    jya    |   0   |
+    |    jyb    |   0   |
+    |    jyc    |   0   |
+    |    jyd    |   0   |
+    +-----------+-------+
+    
+    
 # Functions Implemented:
     MOV,
     INC,
@@ -22,7 +40,7 @@ Interpreter for ASM done in python just for fun
 ```python   
     from Class.Asm import Asm
 
-    FILENAME = 'main.pyasm' # <- filename here
+    FILENAME = 'main.jasm' # <- filename here
 
 
     def main() -> None:
@@ -32,28 +50,51 @@ Interpreter for ASM done in python just for fun
     if __name__ == "__main__":
         main()
 ``` 
-Write some py_asm Code in the main.pyasm file
+# Write some JASMx8086 Code in the main.pyasm file
+
+Variables Section
 
 ```assembly
-mov al,4
-mov bl,4
+_var 
 
-cmp al,bl
-je fine
-
-mov dh,9
-
-fine:
-    mov dl,1
+    let var1  = 'ciao come stai'
+    const var2 = 'we zzio'
 ```
-# Next Update 0.0.3:
+    
+Main Section 
+
+```assembly
+_main // <-code starts here
+
+    mov jxa,10
+    mov jxb,10
+
+    cmp jxa,jxb
+    je fine
+
+    mov jxd,88
+
+    fine: //<- lables
+        mov jyd,9999
+
+_end // <-code starts here
+
+```
+
+# First Hello World
+```assembly
+ _var 
+    let job = 'Programmer'
+    
+_main
+    echo(job)
+_end
+```
+
+# Next Update 0.1.3:
 Available soon on [pip](https://pip.pypa.io/en/stable/)  
 
-```
-   More Conditional Jump:
-        JNLE,
-        JNG,     
-    String {db,dw,dd,dq,dt}
+```    
     Exceptions
 ```
   
