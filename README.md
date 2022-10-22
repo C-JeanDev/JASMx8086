@@ -60,7 +60,7 @@ _main // <-code starts here
     fine: //<- lables
         mov jyd,9999
 
-_end // <-code starts here
+_end // <-code ends here
 
 ```
 
