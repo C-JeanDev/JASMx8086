@@ -1,4 +1,4 @@
-# PY_ASM version 0.1.2
+# JASMx8086 version 0.1.2
 
 JASMx8086 Documentation Language
 
