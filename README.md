@@ -33,7 +33,7 @@ JASMx8086 Documentation Language
     if __name__ == "__main__":
         main()
 ``` 
-# Write some JASMx8086 Code in the main.pyasm file
+# Write some JASMx8086 Code in the main.jasm file
 
 Variables Section
 
