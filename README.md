@@ -68,7 +68,7 @@ _end // <-code ends here
 # Hello World!
 ```python
 _main
-    echo(Hello World!)
+    echo('Hello World!')
 _end
 ```
 
