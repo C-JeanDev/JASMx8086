@@ -40,8 +40,9 @@ Variables Section
 ```assembly
 _var 
 
-    let var1  = 'ciao come stai'
-    const var2 = 'we zzio'
+    let lang = 'Python'
+    let lang = 'Rust'
+
 ```
     
 Main Section 
@@ -73,9 +74,8 @@ _end
 
 # Variables
 ```python
- _var 
-    let job = 'Programmer'
-    
+ _var
+     let job = 'Developer'
 _main
     echo(job)
 _end
