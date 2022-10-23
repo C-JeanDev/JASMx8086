@@ -80,7 +80,22 @@ _main
     echo(job)
 _end
 ```
+#Input
+```assembly
 
+_var
+    const job  = 'Programmer'
+    let job1 = 'Developer'
+
+_main
+
+    echo(job1)  //<- Print job1
+    read(jxd)   // <- Register Read
+    read(job1)  //<- job1 Read
+    echo(job1)  // <- Print job1 
+
+_end
+```
 # Functions Implemented:
     MOV,
     INC,
