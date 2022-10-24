@@ -29,6 +29,7 @@ JASMx8086 Documentation Language
     def main() -> None:
         a = Asm(FILENAME)
         a.registers() # <- Print of Registers here
+        a.vars() # <- Print of 
 
     if __name__ == "__main__":
         main()
@@ -124,7 +125,7 @@ _end
 
 
 ```
-#### Comparison between var and const
+#### Comparison between Regsiters
 
 ```Rust
 
